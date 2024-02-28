@@ -110,6 +110,7 @@ section .texto_sobre h1 {
 h2 {
     font-family: "Kanite", sans-serif;
     margin-bottom: 30px;
+    font-weight: normal;
 }
 
 .item-formulario {
