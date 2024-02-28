@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 20, 65);
+    color: rgb(236, 239, 241);
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 27px;
+    font-weight: normal;
+}
+
+header{
+    padding: 14px;
+    background-color: rgb(22, 20, 65);
+    border-bottom: solid;
+    border-color: rgb(128, 0, 255);
+}
+
+header .container li a:hover{
+    color: rgb(128, 0, 255);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1, header a{
+    font-family: "Kanit", sans-serif;
+    color: rgb(236, 239, 241);
+}
+
+header h1{
+    font-size: 35px;
+}
+
+header ul, #habilidades ul, #contato ul{
+    display: flex;
+}
+
+header li a{
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+section .container{
+    max-width: 1050px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sobre{
+    margin: 30px 0px;
+}
+
+
+section .container img{
+    height: 330px;
+    border-radius: 10%;
+}
+
+section .texto_sobre{
+    width: 400px;
+    font-size: 18px;
+    text-align: justify;
+}
+section .texto_sobre h1{
+    margin-bottom: 26px;
+}
+
+#habilidades .container, #contato .container{
+    display: block;
+}
+
+#habilidades h1, #contato h1{
+    margin-bottom: 30px;
+}
+
+#habilidades ul li img, #contato ul li img{
+    height: 100px;
+}
+
+#habilidades .container ul, #contato .container ul{
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer .container {
+    padding: 25px;
+    border-top: solid;
+    border-color: rgb(128, 0, 255);
+    text-align: center;
+}
+
+footer .container h3{
+    font-weight: normal;
+    font-family: "Kanit", sans-serif;
+}
