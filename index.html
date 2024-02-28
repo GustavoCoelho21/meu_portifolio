@@ -23,7 +23,7 @@
                         <a href="#sobre">Sobre</a>
                     </li>
                     <li>
-                        <a href="#habilidade">Habilidades</a>
+                        <a href="#habilidades">Habilidades</a>
                     </li>
                     <li>
                         <a href="#contato">Contato</a>
@@ -68,7 +68,8 @@
             <h1>Contato</h1>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/gustavo-coelho-6533362b5/" target="_blank"><img src="imagens/linkedin-logo.png"></a>
+                    <a href="https://www.linkedin.com/in/gustavo-coelho-6533362b5/" target="_blank"><img
+                            src="imagens/linkedin-logo.png"></a>
                 </li>
                 <li>
                     <a href="mailto:180481brcoelho13@gmail.com" target="_blank"><img src="imagens/logo-email.png"></a>
@@ -77,6 +78,30 @@
                     <a href="tel:+5561998303718"><img src="imagens/logo-telefone.png"></a>
                 </li>
             </ul>
+        </div>
+    </section>
+    <section id="formulario">
+        <div class="container">
+            <h2>Envie me uma mensagem</h2>
+            <form id="contact-form" method="POST" action="#">
+                <div class="item-formulario">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="item-formulario">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="item-formulario">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" >
+                </div>
+                <div class="item-formulario">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </div>
     </section>
     <footer>
